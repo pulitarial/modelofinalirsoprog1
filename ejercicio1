@@ -1,0 +1,19 @@
+#include<stdio.h>
+#define numero_uno 147
+#define numero_dos 253
+
+int a, b, cuenta;
+int main()
+{
+    printf("hola! ingrese el primer numero\n");
+    scanf("%i", &a);
+    printf("hola! ingrese el segundo numero\n");
+    scanf("%i", &b);
+    if (((a%2)|| (b%2))==0)
+        {cuenta= a+ numero_uno*b+numero_dos;
+        printf("El resultado de la operacion es %i", cuenta);        
+        } else  
+            printf("Todos los valores ingresados deben ser pares");
+
+    return 0;
+}
